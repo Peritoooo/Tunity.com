@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home - Tunify</title>
+  <link rel="icon" type="image/x-icon" href="tit.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f3;
+      color: #222;
+    }
+
+    header {
+      background-color: #3b5998;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2px 40px;
+    }
+
+    .logo img {
+      height: 180px; 
+      width: 200px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 50px; 
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 20px;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffcc00; 
+    }
+
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #3b5998;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ffcc00;
+      color: #3b5998;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #f1b700;
+    }
+
+    .artists-preview {
+      margin-top: 60px;
+    }
+
+    .artists-preview h3 {
+      font-size: 28px;
+      color: #3b5998;
+      margin-bottom: 25px;
+    }
+
+    .artist-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .artist-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      width: 160px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .artist-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .artist-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+
+    .artist-card p {
+      font-size: 16px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #3b5998;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      color: white;
+      font-size: 15px;
+    }
+  </style>
+
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+		<img src="image.png" alt="Music Nepal Logo">
+		</div>
+		<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+      <li><a href="about.html" target="_blank">About</a></li>
+			<li><a href="artists.html" target="_blank">Artists</a></li>
+			<li><a href="con.html" target="_blank">Contact Us</a></li>
+		</ul>
+		</nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to Nepali Music World</h2>
+      <p>Discover the best Nepali singers and their beautiful songs.</p>
+      <a href="artists.html" target="_blank" class="btn">Browse Artists</a>
+    </section>
+
+    <section class="artists-preview">
+      <h3>Popular Artists</h3>
+     
+      <div class="artist-list">
+        <div class="artist-card">
+          <img src="Purna_Rai.jfif" alt="Singer 1">
+          <p>Purna Rai</p>
+        </div>
+        <div class="artist-card">
+          <img src="Wangden_Sherpa.png" alt="Singer 2">
+          <p>Yangden Sherpa</p>
+        </div>
+        <div class="artist-card">
+          <img src="thumb (1).jfif" alt="Singer 3">
+          <p>Bartika Eam Rai</p>
+        </div>
+      </div>
+    </section>
+  
+  </main>
+
+  <footer>
+    <p>© 2025 Tunify. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

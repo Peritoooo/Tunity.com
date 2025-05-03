@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nepali Music Artists - Tunify </title>
+    <link rel="icon" type="image/x-icon" href="tit.png">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f8fa;
+            color: #333;
+            margin: 0;
+            padding: 20px 0 20px 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #3b5998;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .artist-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .artist-card {
+            background: #a5c9ea;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            width: 250px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s;
+            color: #333;
+        }
+
+        .artist-card:hover {
+            transform: scale(1.05);
+        }
+
+        .artist-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .artist-name {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .song-title {
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #3b5998;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #3b5998;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            color: white;
+            font-size: 14px;
+        }
+
+        header {
+            background-color: #3b5998;
+            padding: 2px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+
+        }
+
+        .logo img {
+            height: 180px;
+            width: 200px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Main Section */
+        main {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="image.png" alt="Music Nepal Logo" height="70">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="con.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+	<br><br><br><br><br>
+   
+        <!-- Classic Artist -->
+        <div class="section">
+            <h1>Classic Artist</h1>
+            <div class="artist-container">
+                <div class="artist-card">
+                    <img src="Narayan_Gpoal.png" alt="Narayan Gopal">
+                    <div class="artist-name">Narayan Gopal</div>
+                    <div class="song-title">Popular Song: Euta Manche Ko Maya</div>
+                    <audio controls>
+                        <source src="song1.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="Aruna_Lama.png" alt="Aruna Lama">
+                    <div class="artist-name">Aruna Lama</div>
+                    <div class="song-title">Popular Song: Herana Hera Kancha </div>
+                    <audio controls>
+                        <source src="song2.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="Raju_Lama.png" alt="Prem Doz Pradhan">
+                    <div class="artist-name">Raju Lama</div>
+                    <div class="song-title">Popular Song: Halla Chalexa </div>
+                    <audio controls>
+                        <source src="song3.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modern Artist -->
+        <div class="section">
+            <h1>Modern Artist</h1>
+            <div class="artist-container">
+                <div class="artist-card">
+                    <img src="Purna_Rai.jfif" alt="Purna Rai">
+                    <div class="artist-name">Purna Rai</div>
+                    <div class="song-title">Popular Song: Kalo Seto </div>
+                    <audio controls>
+                        <source src="song4.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="Jon_rai.png" alt="John Chamiling Rai">
+                    <div class="artist-name">John Chamling Rai</div>
+                    <div class="song-title">Popular Song: Hawa Jastai </div>
+                    <audio controls>
+                        <source src="song5.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="prajina.png" alt="Prajina">
+                    <div class="artist-name">Prajina</div>
+                    <div class="song-title">Popular Song: Hami </div>
+                    <audio controls>
+                        <source src="song6.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <!-- Folk Artist -->
+        <div class="section">
+            <h1>Folk Artist</h1>
+            <div class="artist-container">
+                <div class="artist-card">
+                    <img src="Raju_Pariyar.png" alt="Raju Pariyar">
+                    <div class="artist-name">Raju Pariyar</div>
+                    <div class="song-title">Popular Song: Mero Maya </div>
+                    <audio controls>
+                        <source src="song7.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="Pashupati_Sharma.png" alt="Pashupati Sharma">
+                    <div class="artist-name">Pashupati Sharma</div>
+                    <div class="song-title">Popular Song: Lutna Sake Lut </div>
+                    <audio controls>
+                        <source src="song8.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="Durgesh_Thapa.png" alt="Durgesh Thapa">
+                    <div class="artist-name">Durgesh Thapa</div>
+                    <div class="song-title">Popular Song: Dushman Hereko Herai </div>
+                    <audio controls>
+                        <source src="song9.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rap Artist -->
+        <div class="section">
+            <h1>Rap Artist</h1>
+            <div class="artist-container">
+                <div class="artist-card">
+                    <img src="Yama_Buddha.png" alt="Yama Buddha">
+                    <div class="artist-name">Yama Buddha</div>
+                    <div class="song-title">Popular Song: Saathi</div>
+                    <audio controls>
+                        <source src="song10.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="Lil_Jhola.png" alt="Lil Jhola">
+                    <div class="artist-name">Lil Jhola</div>
+                    <div class="song-title">Popular Song: Jhola Gang </div>
+                    <audio controls>
+                        <source src="song11.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="Balen.png" alt="Balen">
+                    <div class="artist-name">Balen</div>
+                    <div class="song-title">Popular Song: Balidan </div>
+                    <audio controls>
+                        <source src="song12.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <!-- Band -->
+        <div class="section">
+            <h1>Band</h1>
+            <div class="artist-container">
+                <div class="artist-card">
+                    <img src="thumb.jfif" alt="Albatross">
+                    <div class="artist-name">Albatross</div>
+                    <div class="song-title">Popular Song: Timi Bhane </div>
+                    <audio controls>
+                        <source src="song13.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="Elements.jpg" alt="The Elements">
+                    <div class="artist-name">The Elements</div>
+                    <div class="song-title">Popular Song: Birsiney Hou Ki </div>
+                    <audio controls>
+                        <source src="song14.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="artist-card">
+                    <img src="1974.png" alt="1974 AD">
+                    <div class="artist-name">1974 AD</div>
+                    <div class="song-title">Popular Song: Gurasai Fulyo </div>
+                    <audio controls>
+                        <source src="song15.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Tunify. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
